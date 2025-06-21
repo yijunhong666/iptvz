@@ -1,9 +1,9 @@
 name: zubo2
 
 on:
-  schedule:
+#  schedule:
     - cron: '30 8 * * *'
-  workflow_dispatch:
+#  workflow_dispatch:
 
 jobs:
   run-script:
